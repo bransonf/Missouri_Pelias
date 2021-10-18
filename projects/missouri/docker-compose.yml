@@ -84,7 +84,7 @@ services:
       - "./pelias.json:/code/pelias.json"
       - "${DATA_DIR}:/data"
   interpolation:
-    image: pelias/interpolation:master
+    image: pelias/interpolation:tiger-2021-2021-10-13-e7dd84b749bcb4f20124f361e34023beeb54fc99
     container_name: pelias_interpolation
     user: "${DOCKER_USER}"
     restart: always
